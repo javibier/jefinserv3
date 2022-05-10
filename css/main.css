@@ -17,6 +17,30 @@ html {
   line-height: 1.4;
 }
 
+body, main, section {
+    height: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+  }
+
+  .parallax {
+  /* The image used */
+    background-image: url('../img/82.jpg');
+
+  /* Full height */
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,6 +121,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+header {
+    background: rgba(255, 255, 255, .0);
+    position: fixed;
+    top: .05%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.75em;
+    padding-left: 2%;
+}
+
 
 /* ==========================================================================
    Helper classes
